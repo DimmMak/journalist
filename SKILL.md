@@ -1,6 +1,7 @@
 ---
 name: journalist
 version: 0.1.0
+role: Investor Relations / Press Office
 description: >
   The press office for Waypoint Capital. Takes structured output from royal-rumble
   (rumble verdicts, predictions.json entries) and rewrites it as readable investment
