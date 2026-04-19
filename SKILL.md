@@ -1,5 +1,6 @@
 ---
 name: journalist
+domain: fund
 version: 0.1.0
 role: Investor Relations / Press Office
 description: >
