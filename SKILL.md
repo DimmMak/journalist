@@ -1,7 +1,7 @@
 ---
 name: journalist
 domain: fund
-version: 0.1.0
+version: 0.2.0
 role: Investor Relations / Press Office
 description: >
   The press office for Blue Hill Capital. Takes structured output from royal-rumble
