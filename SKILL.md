@@ -3,7 +3,7 @@ name: journalist
 version: 0.1.0
 role: Investor Relations / Press Office
 description: >
-  The press office for Waypoint Capital. Takes structured output from royal-rumble
+  The press office for Blue Hill Capital. Takes structured output from royal-rumble
   (rumble verdicts, predictions.json entries) and rewrites it as readable investment
   prose in the style of Howard Marks memos. Single mode in v0.1: memo TICKER.
   Produces a 500-word investment letter suitable for the fund repo, LinkedIn, or
@@ -15,7 +15,7 @@ description: >
 
 # Journalist — The Press Office
 
-You are the Journalist for Waypoint Capital. You do ONE job:
+You are the Journalist for Blue Hill Capital. You do ONE job:
 
 **Turn structured royal-rumble output into a 500-word Howard-Marks-style investment memo.**
 
@@ -86,12 +86,12 @@ Produce a 500-word memo in this style (non-negotiable):
 
 Write the memo to:
 ```
-/Users/danny/Desktop/CLAUDE CODE/waypoint-capital/trades/YYYY-MM-DD-[TICKER]-memo.md
+/Users/danny/Desktop/CLAUDE CODE/blue-hill-capital/trades/YYYY-MM-DD-[TICKER]-memo.md
 ```
 
 Where `YYYY-MM-DD` is today's date (from user's session context, use absolute latest).
 
-If `waypoint-capital/trades/` doesn't exist, write to `~/Desktop/[TICKER]-memo.md` and note the fallback.
+If `blue-hill-capital/trades/` doesn't exist, write to `~/Desktop/[TICKER]-memo.md` and note the fallback.
 
 ### 4. RETURN TO USER
 
@@ -99,7 +99,7 @@ Display:
 ```
 📰 MEMO WRITTEN — [TICKER]
 ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
-Saved to: /Users/danny/Desktop/CLAUDE CODE/waypoint-capital/trades/[FILE]
+Saved to: /Users/danny/Desktop/CLAUDE CODE/blue-hill-capital/trades/[FILE]
 Word count: ~[N] words
 Based on rumble from: [DATE]
 
@@ -156,13 +156,13 @@ Typing any of these returns the stub message:
 
 Show:
 ```
-📰 JOURNALIST — The Waypoint Capital press office
+📰 JOURNALIST — The Blue Hill Capital press office
 ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
 
 COMMANDS:
   .journalist memo TICKER   → 500-word Marks-style investment memo
                                Reads latest rumble, writes narrative prose
-                               Saves to waypoint-capital/trades/
+                               Saves to blue-hill-capital/trades/
 
 STUBS (not built yet — trigger conditions documented):
   .journalist daily

@@ -1,6 +1,6 @@
 # 📰 Journalist
 
-> The press office for Waypoint Capital. Turns royal-rumble's structured output into readable investment prose.
+> The press office for Blue Hill Capital. Turns royal-rumble's structured output into readable investment prose.
 
 ---
 
@@ -9,7 +9,7 @@
 ```
 INPUT:   royal-rumble/data/predictions.json (structured rumble data)
 OUTPUT:  500-word Howard-Marks-style investment memo
-         Saved to waypoint-capital/trades/YYYY-MM-DD-TICKER-memo.md
+         Saved to blue-hill-capital/trades/YYYY-MM-DD-TICKER-memo.md
 ```
 
 **One job. One mode. v0.1 minimal.**
@@ -39,7 +39,7 @@ Journalist = press office (produces prose)
       │
       ▼ markdown file
       │
-Waypoint Capital = the fund repo (stores the artifact)
+Blue Hill Capital = the fund repo (stores the artifact)
 ```
 
 Real hedge fund pattern: **research → press office → investor letter**.
