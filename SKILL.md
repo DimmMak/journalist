@@ -10,6 +10,19 @@ description: >
   Produces a 500-word investment letter suitable for the fund repo, LinkedIn, or
   a future-you re-read. Reads data. Does not hallucinate tickers.
   Commands: .journalist memo TICKER
+  NOT for: creating new predictions (use .rumble).
+  NOT for: real-time market data (use price-desk/fundamentals-desk/technicals-desk).
+  NOT for: attention ranking (use .chief).
+capabilities:
+  reads:
+    - "royal-rumble/data/predictions.json"
+  writes:
+    - "blue-hill-capital/memos/*.md"
+  calls: []
+  cannot:
+    - "invent tickers"
+    - "modify predictions"
+    - "call live data (journalist only reports)"
 ---
 
 <!-- CHANGELOG pointer: see CHANGELOG.md. Bump `version:` on every material change. -->
